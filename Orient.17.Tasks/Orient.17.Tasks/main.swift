@@ -132,3 +132,17 @@ print(unicalElements(arr1: [1,2,3,4,5], arr2: [3,4,5,6,7,8]))
 */
 //----------------------------------------------------
 
+
+
+//                                              Task 7
+/*
+func sortingArray(arr1:[Int], arr2:[Int]) -> [Int] {
+    
+   let sumArray = arr1 + arr2
+    
+    return sumArray.sorted { $0 < $1 }
+}
+
+print(sortingArray(arr1: [5,4,3,2,1], arr2: [10,9,8,7,6]))
+*/
+//----------------------------------------------------
