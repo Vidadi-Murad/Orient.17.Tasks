@@ -79,3 +79,21 @@ func reservedList(arr:[String] ) -> [String] {
 print(reservedList(arr: ["Vidadi","Murad","Abbas","Orxan","Sadiq"]))
 */
 //----------------------------------------------------
+
+
+
+//                                              Task 17
+/*
+func priceTable(dict:[String:Int]) -> [String] {
+    var productList: [String] = []
+    for (product, price) in dict {
+        if price > 100 {
+            productList.append(product)
+        }
+    }
+    return productList
+}
+
+print(priceTable(dict:["Bread":50,"Milk":20,"Water":100,"Beer":120]))
+*/
+ //----------------------------------------------------
