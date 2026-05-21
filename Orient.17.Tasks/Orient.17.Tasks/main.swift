@@ -41,3 +41,22 @@ func greatOne(arr: [Int]) -> Int?{
 print(greatOne(arr: [10,90,67,882,992])!)
 */
 //----------------------------------------------------
+
+
+
+//                                              Task 3
+/*
+func evenNums(arr:[Int]) -> [Int] {
+    var evenArray: [Int] = []
+    
+    for i in arr {
+        if i % 2 == 0 {
+            evenArray.append(i)
+      }
+    }
+    return evenArray
+}
+
+print("Even Numbers: \(evenNums(arr: [1,2,3,4,5,6,7,8,9,10]))")
+ */
+//----------------------------------------------------
