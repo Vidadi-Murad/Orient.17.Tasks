@@ -115,3 +115,20 @@ func twoArray(arr1:[Int], arr2:[Int]) -> [Int] {
 print(twoArray(arr1: [1,2,3,4,7,8], arr2: [1,2,3,4,5,6]))
 */
 //----------------------------------------------------
+
+
+//                                              Task 15
+/*
+func unicalElements(arr1:[Int],arr2:[Int]) -> [Int] {
+    let firstSet: Set<Int> = Set(arr1)
+    let secondSet: Set<Int> = Set(arr2)
+    
+    let result = firstSet.symmetricDifference(secondSet)
+    
+    return Array(result)
+}
+
+print(unicalElements(arr1: [1,2,3,4,5], arr2: [3,4,5,6,7,8]))
+*/
+//----------------------------------------------------
+
