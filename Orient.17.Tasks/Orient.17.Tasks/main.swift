@@ -97,3 +97,21 @@ func priceTable(dict:[String:Int]) -> [String] {
 print(priceTable(dict:["Bread":50,"Milk":20,"Water":100,"Beer":120]))
 */
  //----------------------------------------------------
+
+
+
+
+//                                              Task 14
+/*
+func twoArray(arr1:[Int], arr2:[Int]) -> [Int] {
+    let firstSet: Set<Int> = Set(arr1)
+    let secondSet: Set<Int> = Set(arr2)
+    
+    let result = firstSet.intersection(secondSet)
+    
+    return Array(result)
+}
+
+print(twoArray(arr1: [1,2,3,4,7,8], arr2: [1,2,3,4,5,6]))
+*/
+//----------------------------------------------------
