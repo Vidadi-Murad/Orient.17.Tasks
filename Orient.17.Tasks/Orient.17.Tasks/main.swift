@@ -60,3 +60,22 @@ func evenNums(arr:[Int]) -> [Int] {
 print("Even Numbers: \(evenNums(arr: [1,2,3,4,5,6,7,8,9,10]))")
  */
 //----------------------------------------------------
+
+
+
+//                                              Task 4
+/*
+func reservedList(arr:[String] ) -> [String] {
+    var i: Int = arr.count - 1
+    var newArray: [String] = []
+    
+    for _ in 1...arr.count{
+        newArray.append(arr[i])
+        i -= 1
+    }
+    return newArray
+}
+
+print(reservedList(arr: ["Vidadi","Murad","Abbas","Orxan","Sadiq"]))
+*/
+//----------------------------------------------------
