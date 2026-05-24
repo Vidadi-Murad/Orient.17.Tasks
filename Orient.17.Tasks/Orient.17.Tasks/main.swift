@@ -146,3 +146,16 @@ func sortingArray(arr1:[Int], arr2:[Int]) -> [Int] {
 print(sortingArray(arr1: [5,4,3,2,1], arr2: [10,9,8,7,6]))
 */
 //----------------------------------------------------
+
+
+//                                              Task 5
+/*
+func dataDubl(arr:[Int]) -> [Int] {
+    let firstSet: Set<Int> = Set(arr)
+    
+    return Array(firstSet).sorted { $0 < $1 }
+}
+
+print(dataDubl(arr: [1,2,2,2,3,4,5,5,5,6,7]))
+*/
+//----------------------------------------------------
