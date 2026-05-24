@@ -82,6 +82,24 @@ print(reservedList(arr: ["Vidadi","Murad","Abbas","Orxan","Sadiq"]))
 
 
 
+
+//                                              Task 5
+/*
+func dataDubl(arr:[Int]) -> [Int] {
+    let firstSet: Set<Int> = Set(arr)
+    
+    return Array(firstSet).sorted { $0 < $1 }
+}
+
+print(dataDubl(arr: [1,2,2,2,3,4,5,5,5,6,7]))
+*/
+//----------------------------------------------------
+
+
+
+
+
+
 //                                              Task 17
 /*
 func priceTable(dict:[String:Int]) -> [String] {
@@ -148,14 +166,21 @@ print(sortingArray(arr1: [5,4,3,2,1], arr2: [10,9,8,7,6]))
 //----------------------------------------------------
 
 
-//                                              Task 5
+
+//                                              Task 16
 /*
-func dataDubl(arr:[Int]) -> [Int] {
-    let firstSet: Set<Int> = Set(arr)
+func isSubset(arr:[Int], brr:[Int]) -> Bool {
+    let arrSet: Set<Int> = Set(arr)
+    let brrSet: Set<Int> = Set(brr)
     
-    return Array(firstSet).sorted { $0 < $1 }
+    if arrSet.isSubset(of:brrSet) {
+        return true
+    } else { return false }
+
 }
 
-print(dataDubl(arr: [1,2,2,2,3,4,5,5,5,6,7]))
+
+print(isSubset(arr: [10,11,12], brr: [1,2,3,4,5]))
 */
 //----------------------------------------------------
+
