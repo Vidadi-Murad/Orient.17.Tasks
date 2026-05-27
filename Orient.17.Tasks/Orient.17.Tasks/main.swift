@@ -184,3 +184,24 @@ print(isSubset(arr: [10,11,12], brr: [1,2,3,4,5]))
 */
 //----------------------------------------------------
 
+
+
+//                                              Task 16
+/*
+func anagramWord(arr:String, arr1:String) -> Bool {
+    let firstWord = arr.sorted { $0 < $1 }
+    let secondWord = arr1.sorted { $0 < $1 }
+    
+    if firstWord == secondWord {
+        return true
+    } else { return false }
+}
+ 
+
+
+print(anagramWord(arr: "vidadi", arr1: "vijkdi"))
+ */
+//----------------------------------------------------
+
+
+
