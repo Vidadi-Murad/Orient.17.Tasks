@@ -186,7 +186,7 @@ print(isSubset(arr: [10,11,12], brr: [1,2,3,4,5]))
 
 
 
-//                                              Task 16
+//                                              Task 12
 /*
 func anagramWord(arr:String, arr1:String) -> Bool {
     let firstWord = arr.sorted { $0 < $1 }
@@ -205,3 +205,31 @@ print(anagramWord(arr: "vidadi", arr1: "vijkdi"))
 
 
 
+//                                              Task 6
+/*
+func binarySearch(arr:[Int], num:Int) -> Int {
+    var number: Int = 0
+    var indexOfArray: Int = arr.count - 1
+    
+    while number <= indexOfArray {
+        let orta : Int = (number + indexOfArray) / 2
+        
+        if arr[orta] == num {
+            return arr[orta] - 1
+        }
+        
+        
+        else if arr[orta] < num {
+            number = orta + 1
+        }
+        
+        else {
+            indexOfArray = orta - 1
+        }
+    }
+    return -1
+}
+
+print(binarySearch(arr: [1,2,3,4,5,6,7], num: 8))
+*/
+//----------------------------------------------------
